@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "type": "rank",
+    "rarity": "legendary",
+    "value": "warchief",
+    "attack": 59,
+    "defence": 59,
+    "stamina": 24
+  },
+  {
+    "id": 2,
+    "type": "rank",
+    "rarity": "exotic",
+    "value": "general",
+    "attack": 49,
+    "defence": 49,
+    "stamina": 20
+  },
+  {
+    "id": 3,
+    "type": "rank",
+    "rarity": "uncommon",
+    "value": "captain",
+    "attack": 39,
+    "defence": 39,
+    "stamina": 16
+  },
+  {
+    "id": 4,
+    "type": "rank",
+    "rarity": "common",
+    "value": "grunt",
+    "attack": 29,
+    "defence": 29,
+    "stamina": 12
+  }
+]

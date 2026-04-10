@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "type": "background",
+    "rarity": "legendary",
+    "name": "Lightning Strikes",
+    "stamina": 6
+  },
+  {
+    "id": 2,
+    "type": "background",
+    "rarity": "legendary",
+    "name": "Mystic Forefront",
+    "stamina": 6
+  },
+  {
+    "id": 3,
+    "type": "background",
+    "rarity": "exotic",
+    "name": "Overgrown Valley",
+    "stamina": 5
+  },
+  {
+    "id": 4,
+    "type": "background",
+    "rarity": "exotic",
+    "name": "Lost in Peril",
+    "stamina": 5
+  },
+  {
+    "id": 5,
+    "type": "background",
+    "rarity": "uncommon",
+    "name": "Beaten Battered Battleground",
+    "stamina": 3
+  },
+  {
+    "id": 6,
+    "type": "background",
+    "rarity": "uncommon",
+    "name": "Rolling Hills Volcano",
+    "stamina": 3
+  },
+  {
+    "id": 7,
+    "type": "background",
+    "rarity": "common",
+    "name": "Basic Volcano Valley",
+    "stamina": 2
+  },
+  {
+    "id": 8,
+    "type": "background",
+    "rarity": "common",
+    "name": "Basic Burning Forest",
+    "stamina": 2
+  },
+  {
+    "id": 9,
+    "type": "background",
+    "rarity": "common",
+    "name": "Basic Middle Earth",
+    "stamina": 2
+  },
+  {
+    "id": 10,
+    "type": "background",
+    "rarity": "common",
+    "name": "Basic Mountain View",
+    "stamina": 2
+  }
+]

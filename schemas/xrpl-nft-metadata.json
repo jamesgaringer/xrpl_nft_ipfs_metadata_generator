@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "XRPL NFT Art Metadata",
+  "description": "Schema for XRP Ledger NFT art metadata, conforming to the XLS-24d standard for on-ledger NFT representation.",
+  "type": "object",
+  "required": ["nftType", "name", "description", "collection", "attributes"],
+  "properties": {
+    "nftType": {
+      "type": "string",
+      "description": "Type identifier for this NFT series (e.g. 'orx.v0')."
+    },
+    "name": {
+      "type": "string",
+      "description": "Display name of the individual NFT."
+    },
+    "description": {
+      "type": "string",
+      "description": "Human-readable description of the NFT."
+    },
+    "image": {
+      "type": "string",
+      "description": "IPFS URI pointing to the NFT artwork (e.g. 'ipfs://bafy...')."
+    },
+    "collection": {
+      "type": "object",
+      "required": ["name", "family", "mintNumber"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Name of the collection this NFT belongs to."
+        },
+        "family": {
+          "type": "string",
+          "description": "Creator or studio name."
+        },
+        "mintNumber": {
+          "type": "integer",
+          "description": "Sequential mint index within the collection.",
+          "minimum": 1
+        }
+      }
+    },
+    "attributes": {
+      "type": "array",
+      "description": "List of trait attributes attached to this NFT.",
+      "items": {
+        "type": "object",
+        "required": ["trait_type", "value", "rarity"],
+        "properties": {
+          "trait_type": {
+            "type": "string",
+            "description": "Category of the trait (e.g. 'Weapon', 'Armour')."
+          },
+          "value": {
+            "type": "string",
+            "description": "Display value of the trait."
+          },
+          "rarity": {
+            "type": "string",
+            "enum": ["legendary", "exotic", "uncommon", "common"],
+            "description": "Rarity tier of the trait."
+          },
+          "slot": {
+            "type": "string",
+            "description": "Equipment slot (for armour traits)."
+          },
+          "stats": {
+            "type": "object",
+            "description": "Numeric stat bonuses provided by this trait.",
+            "properties": {
+              "attack": { "type": "integer" },
+              "defence": { "type": "integer" },
+              "stamina": { "type": "integer" }
+            }
+          }
+        }
+      }
+    }
+  }
+}

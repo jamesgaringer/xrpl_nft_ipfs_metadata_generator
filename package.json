@@ -1,14 +1,38 @@
 {
-  "name": "xrplnfttests",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "name": "xrpl-nft-ipfs-metadata-generator",
+  "version": "2.0.0",
+  "description": "Generate randomized XRPL-compliant NFT metadata with weighted rarity traits and pin to IPFS via Filecoin",
+  "main": "src/index.js",
+  "bin": {
+    "xrpl-nft-gen": "src/index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "scripts": {
+    "start": "node src/index.js",
+    "generate": "node src/index.js",
+    "generate:50": "node src/index.js --count 50",
+    "combinations": "node src/index.js --combinations"
+  },
+  "keywords": [
+    "xrpl",
+    "xrp",
+    "nft",
+    "ipfs",
+    "filecoin",
+    "nft-metadata",
+    "nft-generator",
+    "blockchain",
+    "web3",
+    "nft-storage"
+  ],
+  "author": "James Garinger",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamesgaringer/xrpl_nft_ipfs_metadata_generator.git"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
   "dependencies": {
     "dotenv": "^16.0.2",
     "nft.storage": "^7.0.0"

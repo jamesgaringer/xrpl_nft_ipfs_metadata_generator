@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "type": "armour",
+    "slot": "chest",
+    "rarity": "legendary",
+    "name": "Onyx Crystal Chestplate",
+    "defence": 12
+  },
+  {
+    "id": 2,
+    "type": "armour",
+    "slot": "legs",
+    "rarity": "legendary",
+    "name": "Onyx Crystal Legplates",
+    "defence": 12
+  },
+  {
+    "id": 3,
+    "type": "armour",
+    "slot": "hands",
+    "rarity": "legendary",
+    "name": "Legendary Gauntlets",
+    "defence": 12
+  },
+  {
+    "id": 4,
+    "type": "armour",
+    "slot": "head",
+    "rarity": "legendary",
+    "name": "Legendary Helmet",
+    "defence": 12
+  },
+  {
+    "id": 5,
+    "type": "armour",
+    "slot": "chest",
+    "rarity": "exotic",
+    "name": "Mithril Chestplate",
+    "defence": 9
+  },
+  {
+    "id": 6,
+    "type": "armour",
+    "slot": "legs",
+    "rarity": "exotic",
+    "name": "Mithril Legplates",
+    "defence": 9
+  },
+  {
+    "id": 7,
+    "type": "armour",
+    "slot": "hands",
+    "rarity": "exotic",
+    "name": "Exotic Gauntlets",
+    "defence": 9
+  },
+  {
+    "id": 8,
+    "type": "armour",
+    "slot": "head",
+    "rarity": "exotic",
+    "name": "Exotic Helmet",
+    "defence": 9
+  },
+  {
+    "id": 9,
+    "type": "armour",
+    "slot": "chest",
+    "rarity": "uncommon",
+    "name": "Steel Chestplate",
+    "defence": 6
+  },
+  {
+    "id": 10,
+    "type": "armour",
+    "slot": "legs",
+    "rarity": "uncommon",
+    "name": "Steel Legplates",
+    "defence": 6
+  },
+  {
+    "id": 11,
+    "type": "armour",
+    "slot": "hands",
+    "rarity": "uncommon",
+    "name": "Uncommon Gauntlets",
+    "defence": 6
+  },
+  {
+    "id": 12,
+    "type": "armour",
+    "slot": "head",
+    "rarity": "uncommon",
+    "name": "Uncommon Helmet",
+    "defence": 6
+  },
+  {
+    "id": 13,
+    "type": "armour",
+    "slot": "chest",
+    "rarity": "common",
+    "name": "Leather Chestplate",
+    "defence": 3
+  },
+  {
+    "id": 14,
+    "type": "armour",
+    "slot": "legs",
+    "rarity": "common",
+    "name": "Leather Legplates",
+    "defence": 3
+  },
+  {
+    "id": 15,
+    "type": "armour",
+    "slot": "hands",
+    "rarity": "common",
+    "name": "Common Gauntlets",
+    "defence": 3
+  },
+  {
+    "id": 16,
+    "type": "armour",
+    "slot": "head",
+    "rarity": "common",
+    "name": "Common Helmet",
+    "defence": 3
+  }
+]

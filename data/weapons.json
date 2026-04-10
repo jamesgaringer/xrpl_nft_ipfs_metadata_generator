@@ -1,0 +1,156 @@
+[
+  {
+    "id": 1,
+    "type": "weapon",
+    "rarity": "legendary",
+    "name": "Legendary Sword",
+    "attack": 12
+  },
+  {
+    "id": 2,
+    "type": "weapon",
+    "rarity": "legendary",
+    "name": "Legendary Mace",
+    "attack": 12
+  },
+  {
+    "id": 3,
+    "type": "weapon",
+    "rarity": "legendary",
+    "name": "Legendary Axe",
+    "attack": 12
+  },
+  {
+    "id": 4,
+    "type": "weapon",
+    "rarity": "legendary",
+    "name": "Legendary Mallet",
+    "attack": 12
+  },
+  {
+    "id": 5,
+    "type": "weapon",
+    "rarity": "exotic",
+    "name": "Exotic Sword",
+    "attack": 9
+  },
+  {
+    "id": 6,
+    "type": "weapon",
+    "rarity": "exotic",
+    "name": "Exotic Mace",
+    "attack": 9
+  },
+  {
+    "id": 7,
+    "type": "weapon",
+    "rarity": "exotic",
+    "name": "Exotic Axe",
+    "attack": 9
+  },
+  {
+    "id": 8,
+    "type": "weapon",
+    "rarity": "exotic",
+    "name": "Exotic Mallet",
+    "attack": 9
+  },
+  {
+    "id": 9,
+    "type": "weapon",
+    "rarity": "uncommon",
+    "name": "Uncommon Sword",
+    "attack": 6
+  },
+  {
+    "id": 10,
+    "type": "weapon",
+    "rarity": "uncommon",
+    "name": "Uncommon Mace",
+    "attack": 6
+  },
+  {
+    "id": 11,
+    "type": "weapon",
+    "rarity": "uncommon",
+    "name": "Uncommon Axe",
+    "attack": 6
+  },
+  {
+    "id": 12,
+    "type": "weapon",
+    "rarity": "uncommon",
+    "name": "Uncommon Mallet",
+    "attack": 6
+  },
+  {
+    "id": 13,
+    "type": "weapon",
+    "rarity": "uncommon",
+    "name": "Uncommon Pike",
+    "attack": 6
+  },
+  {
+    "id": 14,
+    "type": "weapon",
+    "rarity": "uncommon",
+    "name": "Uncommon Nunchuck",
+    "attack": 6
+  },
+  {
+    "id": 15,
+    "type": "weapon",
+    "rarity": "common",
+    "name": "Common Sword",
+    "attack": 3
+  },
+  {
+    "id": 16,
+    "type": "weapon",
+    "rarity": "common",
+    "name": "Common Mace",
+    "attack": 3
+  },
+  {
+    "id": 17,
+    "type": "weapon",
+    "rarity": "common",
+    "name": "Common Axe",
+    "attack": 3
+  },
+  {
+    "id": 18,
+    "type": "weapon",
+    "rarity": "common",
+    "name": "Common Mallet",
+    "attack": 3
+  },
+  {
+    "id": 19,
+    "type": "weapon",
+    "rarity": "common",
+    "name": "Common Pike",
+    "attack": 3
+  },
+  {
+    "id": 20,
+    "type": "weapon",
+    "rarity": "common",
+    "name": "Common Club",
+    "attack": 3
+  },
+  {
+    "id": 21,
+    "type": "weapon",
+    "rarity": "common",
+    "name": "Common Dagger",
+    "attack": 3
+  },
+  {
+    "id": 22,
+    "type": "weapon",
+    "rarity": "common",
+    "name": "Common Cleaver",
+    "attack": 3
+  }
+]
